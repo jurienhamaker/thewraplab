@@ -41,10 +41,12 @@ section {
   &:nth-child(odd),
   &.dark {
     @include section-bubble-with-colors(a, #171717, #ffffff);
+    @apply text-white;
   }
   &:nth-child(even),
   &.light {
     @include section-bubble-with-colors(a, #ffffff, #171717);
+    @apply text-neutral-900;
   }
 
   &.no-bubble {

@@ -21,9 +21,14 @@ export default function Navigation() {
   }, []);
 
   const scrollTo = (id: string) => {
-    document.querySelector(`#${id}`)?.scrollIntoView({
-      behavior: "smooth",
-    });
+    const element = document.querySelector(`#${id}`);
+
+    if (!element) {
+      return;
+    }
+
+    const y = element.getBoundingClientRect().top + window.pageYOffset + -200;
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
@@ -61,11 +66,11 @@ export default function Navigation() {
           <a className="cursor-pointer" onClick={() => scrollTo("home")}>
             Home
           </a>
-          <a className="cursor-pointer" onClick={() => scrollTo("hoe")}>
-            Hoe
-          </a>
           <a className="cursor-pointer" onClick={() => scrollTo("wat")}>
             Wat
+          </a>
+          <a className="cursor-pointer" onClick={() => scrollTo("hoe")}>
+            Hoe
           </a>
           <a className="cursor-pointer" onClick={() => scrollTo("waar")}>
             Waar

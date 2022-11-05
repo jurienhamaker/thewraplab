@@ -9,7 +9,6 @@ import { getRandomColor } from "../util/colors";
 
 const TheWrapLab = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
-    console.log("??");
     const color = getRandomColor();
 
     document.documentElement.style.setProperty(
