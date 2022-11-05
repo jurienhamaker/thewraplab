@@ -30,7 +30,7 @@ export default function Navigation() {
       <Logo
         className={`fixed z-50 transition-all duration-500 ${
           offset > heightOffset
-            ? "-top-12 -left-16 h-48 md:-left-16 md:h-52 lg:h-52"
+            ? "-top-12 -left-14 h-48 md:h-52 lg:h-52"
             : "-top-12 -left-12 h-52 md:h-64 lg:h-96"
         }`}
       />
