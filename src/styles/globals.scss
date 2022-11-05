@@ -11,4 +11,8 @@
     font-family: "Futura PT";
     @apply bg-neutral-900 text-white;
   }
+
+  .variable-color {
+    color: var(--variable-color);
+  }
 }

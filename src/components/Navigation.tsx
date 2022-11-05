@@ -5,6 +5,7 @@ import { HiMenu, HiOutlineX } from "react-icons/hi";
 import Logo from "../assets/logo.svg";
 
 const heightOffset = 200;
+
 export default function Navigation() {
   const [offset, setOffset] = useState(0);
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -28,7 +29,7 @@ export default function Navigation() {
   return (
     <>
       <Logo
-        className={`fixed z-50 transition-all duration-500 ${
+        className={`variable-color fixed z-50 transition-all duration-500 ${
           offset > heightOffset
             ? "-top-12 -left-14 h-48 md:h-52 lg:h-52"
             : "-top-12 -left-12 h-52 md:h-64 lg:h-96"
@@ -40,7 +41,7 @@ export default function Navigation() {
         } items-center justify-end px-4 transition-all duration-300 lg:justify-center`}
       >
         <div
-          className="h-12 w-12 cursor-pointer p-3 hover:text-red-400 md:hidden"
+          className="cursor-pointerp-3 h-12 w-12  md:hidden"
           onClick={() => setNavigationOpen(!navigationOpen)}
         >
           {navigationOpen ? (
@@ -57,34 +58,19 @@ export default function Navigation() {
             navigationOpen ? "right-8" : "-right-full"
           } flex flex-col items-end gap-4 font-medium uppercase md:relative md:right-0 md:top-0 md:flex-row`}
         >
-          <a
-            className="cursor-pointer hover:text-red-400"
-            onClick={() => scrollTo("home")}
-          >
+          <a className="cursor-pointer" onClick={() => scrollTo("home")}>
             Home
           </a>
-          <a
-            className="cursor-pointer hover:text-red-400"
-            onClick={() => scrollTo("hoe")}
-          >
+          <a className="cursor-pointer" onClick={() => scrollTo("hoe")}>
             Hoe
           </a>
-          <a
-            className="cursor-pointer hover:text-red-400"
-            onClick={() => scrollTo("wat")}
-          >
+          <a className="cursor-pointer" onClick={() => scrollTo("wat")}>
             Wat
           </a>
-          <a
-            className="cursor-pointer hover:text-red-400"
-            onClick={() => scrollTo("waar")}
-          >
+          <a className="cursor-pointer" onClick={() => scrollTo("waar")}>
             Waar
           </a>
-          <a
-            className="cursor-pointer hover:text-red-400"
-            onClick={() => scrollTo("contact")}
-          >
+          <a className="cursor-pointer" onClick={() => scrollTo("contact")}>
             Contact
           </a>
         </div>
