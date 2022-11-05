@@ -15,7 +15,7 @@ export const HomeSection: React.FunctionComponent<HomeSectionProps> = ({
 }) => (
   <Section
     id={id}
-    className="relative flex h-[70vh] flex-col items-center justify-center px-12 text-center"
+    className="relative flex h-[90vh] flex-col items-center justify-center px-12 text-center lg:h-[70vh]"
   >
     <motion.h1 {...fadeGrowIn} className="variable-color text-6xl uppercase">
       Car{" "}

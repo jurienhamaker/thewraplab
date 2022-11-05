@@ -8,7 +8,7 @@ export const fadeGrowIn = {
 export const dropIn = {
   initial: { opacity: 0, translateY: -100 },
   whileInView: { opacity: 1, translateY: 0 },
-  viewport: { once: true, margin: "-350px" },
+  viewport: { once: true, margin: "-200px" },
   transition: { duration: 0.5 },
 };
 

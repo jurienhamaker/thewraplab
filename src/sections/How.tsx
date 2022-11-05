@@ -14,7 +14,7 @@ export const HowSection: React.FunctionComponent<HowSectionProps> = ({
   id,
 }) => (
   <Section id={id} className="pb-5">
-    <div className="container flex flex-col items-center text-center">
+    <div className="flex flex-col items-center px-4 text-center lg:px-12 xl:px-32">
       <motion.h2 className="text-semibold text-4xl" {...fadeGrowIn}>
         How we go to work
       </motion.h2>
@@ -26,10 +26,10 @@ export const HowSection: React.FunctionComponent<HowSectionProps> = ({
         Average car wrapping takes 3 days!
       </motion.h3>
 
-      <div className="mt-12 flex flex-col items-center gap-12 xl:flex-row">
+      <div className="mt-12 flex flex-col items-center gap-12 lg:flex-row">
         <motion.div {...fadeGrowIn} initial={{ opacity: 0, scale: 0.2 }}>
           <Image
-            className="splatter-mask-1 xl: -mb-44 md:-mb-52"
+            className="splatter-mask-1 -mb-36 max-w-xs sm:-mb-32 md:-mb-32 xl:-mb-44 xl:max-w-md"
             alt="Wrapping petra's car"
             src="/images/petra.jpg"
             width="500"
@@ -39,7 +39,7 @@ export const HowSection: React.FunctionComponent<HowSectionProps> = ({
 
         <motion.p
           {...slideInRight}
-          className="flex-1 text-center text-lg xl:text-left"
+          className="max-w-xl flex-1 text-center text-lg xl:text-left"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis
           felis tristique, posuere nulla ac, vehicula tortor. Vestibulum
