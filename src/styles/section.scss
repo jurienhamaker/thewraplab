@@ -32,8 +32,8 @@ $spacer-height: 20vw;
 
     height: calc(#{$spacer-height} + 2px);
     background-color: green; // needs to be next sections background
-    background-size: cover;
-    background-position-y: -2px;
+    background-size: calc(100% + 4px);
+    background-position: -2px -2px;
   }
 }
 
