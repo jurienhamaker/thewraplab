@@ -8,6 +8,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "prestart": "yarn && yarn build",
     "start": "next start"
   },
   "dependencies": {

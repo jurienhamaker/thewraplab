@@ -9,8 +9,8 @@
 const config = {
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: true,
-  experimental: { appDir: true },
+  // trailingSlash: true,
+  // experimental: { appDir: true },
   i18n: {
     locales: ["nl"],
     defaultLocale: "nl",
