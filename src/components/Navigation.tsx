@@ -6,11 +6,13 @@ import Logo from "../assets/logo.svg";
 
 const heightOffset = 200;
 export default function Navigation() {
-  const [offset, setOffset] = useState(window.pageYOffset);
+  const [offset, setOffset] = useState(0);
   const [navigationOpen, setNavigationOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
+    onScroll();
+
     // clean up code
     window.removeEventListener("scroll", onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
