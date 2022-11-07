@@ -18,11 +18,14 @@ export const HomeSection: React.FunctionComponent<HomeSectionProps> = ({
   <Section id={id} className="relative flex h-[95vh] lg:h-[80vh]">
     <div className="h-80vh mx-auto flex items-center justify-center gap-4 px-4 md:max-w-[100vw] md:gap-14 lg:mt-0 lg:max-w-[90vw] lg:gap-0 xl:max-w-[80vw]">
       <div className="flex flex-col-reverse items-center justify-center lg:flex-row lg:pl-16 xl:pl-24">
-        <motion.div {...slideInRight} className="mr-0 lg:-mr-16 xl:-mr-24">
+        <motion.div
+          {...slideInRight}
+          className="mt-12 mr-0 max-w-[80vw] md:max-w-[60vw] lg:mt-0 lg:-mr-16 xl:-mr-24"
+        >
           <Image
             src="/images/car.png"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
             alt="Yellow car"
           />
         </motion.div>
