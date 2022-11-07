@@ -7,10 +7,11 @@
   @import "./section.scss";
   @import "./links.scss";
   @import "./masks.scss";
+  @import "./text.scss";
+  @import "./button.scss";
 
   body {
-    font-family: "Futura PT";
-    @apply bg-neutral-900 text-white;
+    @apply bg-neutral-900;
   }
 
   .variable-color {

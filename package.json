@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.8",
     "framer-motion": "^7.6.4",
     "jotai": "^1.9.1",
     "next": "13.0.1",

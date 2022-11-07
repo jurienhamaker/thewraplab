@@ -1,0 +1,28 @@
+body {
+  font-family: "Futura PT";
+  @apply text-lg tracking-tight text-white xl:text-vw-lg 2xl:text-xl;
+}
+
+h1 {
+  @apply text-5xl font-semibold tracking-tighter md:text-7xl xl:text-vw-7xl;
+}
+
+h2 {
+  @apply text-4xl font-semibold tracking-tighter md:text-6xl  xl:text-vw-6xl;
+}
+
+h3 {
+  @apply text-4xl md:text-5xl  xl:text-vw-5xl;
+}
+
+h4 {
+  @apply text-3xl md:text-4xl  xl:text-vw-4xl;
+}
+
+h5 {
+  @apply text-2xl md:text-3xl  xl:text-vw-3xl;
+}
+
+h6 {
+  @apply text-xl md:text-2xl  xl:text-vw-2xl;
+}

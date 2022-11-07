@@ -1,0 +1,24 @@
+button {
+  &.ghost {
+    @apply rounded-lg border px-4 py-3 font-medium uppercase tracking-tight;
+    @apply transition-all duration-300;
+
+    &.ghost-light {
+      @apply border-white hover:bg-white hover:text-neutral-900;
+    }
+
+    &.ghost-dark {
+      @apply border-neutral-900 text-neutral-900 hover:bg-neutral-900 hover:text-white;
+    }
+
+    &.ghost-variable-color {
+      border-color: var(--variable-color);
+      color: var(--variable-color);
+
+      &:hover {
+        @apply text-neutral-900;
+        background-color: var(--variable-color);
+      }
+    }
+  }
+}

@@ -6,16 +6,18 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <Section className="light no-bubble pb-12">
-      <div className="flex w-full items-center justify-center gap-4 text-xs uppercase mix-blend-difference">
+    <Section className="light no-bubble pb-12 ">
+      <div className="flex w-full items-center justify-center gap-4 text-xs uppercase ">
         <span>The Wrap Lab © {year}</span>
         <span>|</span>
         <Link
           href="https://jurien.dev"
           target="_BLANK"
-          className="flex items-center gap-2"
+          className="group flex items-center gap-2 "
         >
-          With <HiHeart className="text-cyan-400" /> by jurien.dev
+          With{" "}
+          <HiHeart className="variable-color transition-colors group-hover:text-red-600" />{" "}
+          by jurien.dev
         </Link>
       </div>
     </Section>
