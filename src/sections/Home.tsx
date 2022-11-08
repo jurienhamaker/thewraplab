@@ -46,7 +46,7 @@ export const HomeSection: React.FunctionComponent<HomeSectionProps> = ({
             className="text-vw-7xl font-light tracking-wide text-neutral-200 drop-shadow-md md:text-vw-6xl lg:text-vw-4xl xl:text-vw-4xl"
           >
             With the latest techniques your car <br />
-            could look the best it's ever been.
+            could look the best it&apos;s ever been.
           </motion.h2>
 
           <div className="mt-4 flex items-center gap-12 md:mt-8">
