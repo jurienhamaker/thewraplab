@@ -28,7 +28,7 @@ export const ContactSection: React.FunctionComponent<ContactSectionProps> = ({
         </motion.a>
         <motion.a
           className="group !flex flex-nowrap items-center gap-4"
-          href="mail:info@the-wraplab.com"
+          href="mailto:info@the-wraplab.com"
           {...slideInLeft}
         >
           <HiOutlineMail className="group-hover:animate-bounce" />
