@@ -18,14 +18,14 @@ export const WhatSection: React.FunctionComponent<WhatSectionProps> = ({
   <Section id={id} className="pb-5">
     <div className="container flex flex-col items-center text-center">
       <motion.h2 className="text-semibold text-4xl" {...fadeGrowIn}>
-        What we can do for you
+        Wat wij voor jou kunnen betekenen
       </motion.h2>
       <motion.h3
         className="text-xl italic"
         {...fadeGrowIn}
         transition={{ duration: 0.5 }}
       >
-        Did you know we use the best wrapping material?
+        Met de beste wrap materialen beschikbaar!
       </motion.h3>
 
       <div className="mt-12 grid w-full grid-cols-1 gap-y-12 gap-x-4 text-neutral-900 xl:grid-cols-3  xl:gap-x-12">

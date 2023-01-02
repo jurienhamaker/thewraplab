@@ -45,8 +45,8 @@ export const HomeSection: React.FunctionComponent<HomeSectionProps> = ({
             transition={{ duration: 0.5 }}
             className="text-vw-7xl font-light tracking-wide text-neutral-200 drop-shadow-md md:text-vw-6xl lg:text-vw-4xl xl:text-vw-4xl"
           >
-            With the latest techniques your car <br />
-            could look the best it&apos;s ever been.
+            Jouw auto beter dan die ooit is geweest <br />
+            met de nieuwste en beste technieken.
           </motion.h2>
 
           <div className="mt-4 flex items-center gap-12 md:mt-8">
