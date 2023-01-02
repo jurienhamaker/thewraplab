@@ -56,12 +56,4 @@ section {
       @apply hidden;
     }
   }
-
-  &#partners {
-    &:nth-child(even) {
-      img {
-        @apply mix-blend-difference;
-      }
-    }
-  }
 }

@@ -69,7 +69,7 @@ export const PartnersSection: React.FunctionComponent<PartnersSectionProps> = ({
               {partner.name}
             </div>
             <Image
-              className="opacity-50 transition-opacity duration-500 group-hover:opacity-100"
+              className="opacity-50 mix-blend-difference transition-opacity duration-500 group-hover:opacity-100"
               src={partner.image}
               width={100}
               height={100}
