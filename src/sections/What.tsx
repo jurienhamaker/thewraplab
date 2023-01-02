@@ -6,7 +6,8 @@ import { Feature } from "../components/Feature";
 import { Section } from "../components/Section";
 import { fadeGrowIn } from "../util/animations";
 
-import { HiOutlineHome } from "react-icons/hi";
+import { GiPapers } from "react-icons/gi";
+import { TbTruck, TbWallpaper } from "react-icons/tb";
 
 type WhatSectionProps = {
   id?: string;
@@ -30,19 +31,19 @@ export const WhatSection: React.FunctionComponent<WhatSectionProps> = ({
 
       <div className="mt-12 grid w-full grid-cols-1 gap-y-12 gap-x-4 text-neutral-900 xl:grid-cols-3  xl:gap-x-12">
         <Feature
-          title="Window blinding"
+          title="CAR WRAPPING"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis tristique, posuere nulla ac, vehicula tortor. Vestibulum vulputate metus id mauris dignissim fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et pulvinar urna, sed placerat enim. Nulla ornare orci id tempor vehicula. Aliquam commodo risus eleifend, accumsan eros luctus, maximus lectus. Duis tempor feugiat arcu non convallis"
-          Icon={HiOutlineHome}
+          Icon={GiPapers}
         />
         <Feature
-          title="Window blinding"
+          title="PAINT PROTECTION"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis tristique, posuere nulla ac, vehicula tortor. Vestibulum vulputate metus id mauris dignissim fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et pulvinar urna, sed placerat enim. Nulla ornare orci id tempor vehicula. Aliquam commodo risus eleifend, accumsan eros luctus, maximus lectus. Duis tempor feugiat arcu non convallis"
-          Icon={HiOutlineHome}
+          Icon={TbWallpaper}
         />
         <Feature
-          title="Window blinding"
+          title="AUTO BELETTERING"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis tristique, posuere nulla ac, vehicula tortor. Vestibulum vulputate metus id mauris dignissim fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et pulvinar urna, sed placerat enim. Nulla ornare orci id tempor vehicula. Aliquam commodo risus eleifend, accumsan eros luctus, maximus lectus. Duis tempor feugiat arcu non convallis"
-          Icon={HiOutlineHome}
+          Icon={TbTruck}
         />
       </div>
     </div>

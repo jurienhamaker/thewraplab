@@ -16,7 +16,7 @@ export default function Footer() {
           className="group !flex items-center gap-2 whitespace-nowrap"
         >
           With{" "}
-          <HiHeart className="variable-color transition-colors group-hover:text-red-600" />{" "}
+          <HiHeart className="text-variable transition-colors group-hover:text-red-600" />{" "}
           by jurien.dev
         </Link>
       </div>

@@ -15,6 +15,6 @@
   }
 
   .variable-color {
-    color: var(--variable-color);
+    @apply text-variable;
   }
 }

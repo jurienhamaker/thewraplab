@@ -11,13 +11,11 @@ button {
       @apply border-neutral-900 text-neutral-900 hover:bg-neutral-900 hover:text-white;
     }
 
-    &.ghost-variable-color {
-      border-color: var(--variable-color);
-      color: var(--variable-color);
+    &.ghost-variable {
+      @apply border-variable text-variable;
 
       &:hover {
-        @apply text-neutral-900;
-        background-color: var(--variable-color);
+        @apply bg-variable text-neutral-900;
       }
     }
   }

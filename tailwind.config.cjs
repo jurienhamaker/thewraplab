@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-
       padding: {
         DEFAULT: "2rem",
         md: "8rem",
@@ -15,6 +14,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        variable: "var(--variable-color)",
         "dark-gray": "#171717",
         twl: {
           orange: "#fad679",
