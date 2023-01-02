@@ -57,7 +57,7 @@ export const PartnersSection: React.FunctionComponent<PartnersSectionProps> = ({
         De geweldige mensen waar we mee samen werken
       </motion.h3>
 
-      <div className="mt-12 grid w-4/5 grid-cols-2 items-center justify-items-center gap-6 md:w-3/4 md:grid-cols-3 xl:w-1/3">
+      <div className="mt-24 grid w-4/5 grid-cols-2 items-center justify-items-center gap-6 md:w-3/4 md:grid-cols-3 xl:w-1/3">
         {partners.map((partner, i) => (
           <Link
             href={partner.url}

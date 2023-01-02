@@ -26,7 +26,7 @@ export const HowSection: React.FunctionComponent<HowSectionProps> = ({
         Wist je dat het gemiddeld 3 dagen duurt om een auto te wrappen?
       </motion.h3>
 
-      <div className="mt-12 flex flex-col items-center gap-12 lg:flex-row">
+      <div className="mt-24 flex flex-col items-center gap-12 lg:flex-row">
         <motion.div {...fadeGrowIn} initial={{ opacity: 0, scale: 0.2 }}>
           <Image
             className="splatter-mask-1 -mb-36 max-w-xs sm:-mb-32 md:-mb-32 xl:-mb-44 xl:max-w-md"

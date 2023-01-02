@@ -29,7 +29,7 @@ export const WhatSection: React.FunctionComponent<WhatSectionProps> = ({
         Met de beste wrap materialen beschikbaar!
       </motion.h3>
 
-      <div className="mt-12 grid w-full grid-cols-1 gap-y-12 gap-x-4 text-neutral-900 xl:grid-cols-3  xl:gap-x-12">
+      <div className="mt-24 grid w-full grid-cols-1 gap-y-12 gap-x-4 text-neutral-900 xl:grid-cols-3  xl:gap-x-12">
         <Feature
           title="CAR WRAPPING"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis tristique, posuere nulla ac, vehicula tortor. Vestibulum vulputate metus id mauris dignissim fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus et pulvinar urna, sed placerat enim. Nulla ornare orci id tempor vehicula. Aliquam commodo risus eleifend, accumsan eros luctus, maximus lectus. Duis tempor feugiat arcu non convallis"

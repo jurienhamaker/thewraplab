@@ -17,7 +17,7 @@ export const ContactSection: React.FunctionComponent<ContactSectionProps> = ({
         Let&apos;s Talk!
       </motion.h2>
 
-      <div className="flex w-full flex-col items-center justify-center gap-6 py-12">
+      <div className="flex w-full flex-col items-center justify-center gap-6 py-24">
         <motion.a
           className="group !flex flex-nowrap items-center gap-4"
           href="tel:+31629069925"
