@@ -26,7 +26,7 @@ export const HomeSection: React.FunctionComponent<HomeSectionProps> = ({
             src="/images/car.png"
             width={600}
             height={600}
-            alt="Yellow car"
+            alt="Petra car wrapped"
           />
         </motion.div>
 
