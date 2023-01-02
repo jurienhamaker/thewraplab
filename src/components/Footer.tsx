@@ -13,7 +13,7 @@ export default function Footer() {
         <Link
           href="https://jurien.dev"
           target="_BLANK"
-          className="group flex items-center gap-2 "
+          className="group !flex items-center gap-2 whitespace-nowrap"
         >
           With{" "}
           <HiHeart className="variable-color transition-colors group-hover:text-red-600" />{" "}

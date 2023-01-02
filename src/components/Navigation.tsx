@@ -46,7 +46,7 @@ export default function Navigation() {
         } items-center justify-end px-4 transition-all duration-300 lg:justify-center`}
       >
         <div
-          className="cursor-pointerp-3 h-12 w-12  md:hidden"
+          className="h-12 w-12 cursor-pointer p-3  md:hidden"
           onClick={() => setNavigationOpen(!navigationOpen)}
         >
           {navigationOpen ? (
@@ -66,14 +66,14 @@ export default function Navigation() {
           <a className="cursor-pointer" onClick={() => scrollTo("home")}>
             Home
           </a>
-          <a className="cursor-pointer" onClick={() => scrollTo("wat")}>
-            Wat
+          <a className="cursor-pointer" onClick={() => scrollTo("what")}>
+            Wat wij doen
           </a>
-          <a className="cursor-pointer" onClick={() => scrollTo("hoe")}>
-            Hoe
+          <a className="cursor-pointer" onClick={() => scrollTo("how")}>
+            Hoe wij werken
           </a>
-          <a className="cursor-pointer" onClick={() => scrollTo("waar")}>
-            Waar
+          <a className="cursor-pointer" onClick={() => scrollTo("partners")}>
+            Partners
           </a>
           <a className="cursor-pointer" onClick={() => scrollTo("contact")}>
             Contact

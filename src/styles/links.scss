@@ -1,5 +1,5 @@
 /* Underline styles */
-a {
+a:not(.no-underline) {
   @apply relative -my-1 block overflow-hidden py-1;
 
   &::after {

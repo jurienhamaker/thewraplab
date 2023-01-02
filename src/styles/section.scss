@@ -28,7 +28,7 @@ $spacer-height: 20vw;
 
   &:after {
     content: "";
-    @apply absolute bottom-0 w-full translate-y-full transform;
+    @apply absolute bottom-[1px] w-full translate-y-full transform;
 
     height: calc(#{$spacer-height} + 2px);
     background-color: green; // needs to be next sections background
@@ -54,6 +54,14 @@ section {
 
     &:after {
       @apply hidden;
+    }
+  }
+
+  &#partners {
+    &:nth-child(even) {
+      img {
+        @apply mix-blend-difference;
+      }
     }
   }
 }

@@ -15,6 +15,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        "dark-gray": "#171717",
         twl: {
           orange: "#fad679",
           blue: "#01AEF0",
