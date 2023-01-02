@@ -18,3 +18,10 @@ export const slideInRight = {
   viewport: { once: true, margin: "-200px" },
   transition: { duration: 0.5 },
 };
+
+export const slideInLeft = {
+  initial: { opacity: 0, translateX: -300 },
+  whileInView: { opacity: 1, translateX: 0 },
+  viewport: { once: true, margin: "-200px" },
+  transition: { duration: 0.5 },
+};
