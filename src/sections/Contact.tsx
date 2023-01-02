@@ -20,11 +20,11 @@ export const ContactSection: React.FunctionComponent<ContactSectionProps> = ({
       <div className="flex w-full flex-col items-center justify-center gap-6 py-12">
         <motion.a
           className="group !flex flex-nowrap items-center gap-4"
-          href="tel:+31618170170"
+          href="tel:+31629069925"
           {...slideInLeft}
         >
           <HiOutlinePhoneIncoming className="group-hover:animate-bounce" />
-          <span>+31 6 18 17 01 70</span>
+          <span>+31 6 290 699 25</span>
         </motion.a>
         <motion.a
           className="group !flex flex-nowrap items-center gap-4"
